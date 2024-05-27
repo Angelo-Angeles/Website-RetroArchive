@@ -1,7 +1,7 @@
 #header {
     padding: 25px 10px;
     height: 55px;
-    fill: #292929;
+    background-color: #292929;
     border-bottom: 1px solid #e00000;
     overflow: no-content;
     min-width: 400px;
