@@ -23,11 +23,12 @@ device.*/
 #logo {
     color: #08a3d9;
     width: 10%;
-    border-color: red; 
+    border-color: red;
+    size: 100%;
 }
 
 #navigation {
-    width: 60%; 
+    width: 80%; 
     border-color: green; 
 }
 #navigation a {
