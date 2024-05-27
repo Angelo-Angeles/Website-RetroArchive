@@ -1,7 +1,8 @@
 #header {
     padding: 25px 10px;
     height: 55px;
-    border-bottom: 1px solid #2c2c2c;
+    fill: #292929;
+    border-bottom: 1px solid #e00000;
     overflow: no-content;
     min-width: 400px;
 }
@@ -25,12 +26,15 @@ device.*/
     border-color: red; 
 }
 
-#header-middle {
+#navigation {
     width: 60%; 
     border-color: green; 
 }
+#navigation a {
+    padding: 20px;
+}
 
-#header-right {
+#login {
     width: 10%;
     border-color: blue; 
 }
