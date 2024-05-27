@@ -1,0 +1,36 @@
+#header {
+    padding: 25px 10px;
+    height: 55px;
+    border-bottom: 1px solid #2c2c2c;
+    overflow: no-content;
+    min-width: 400px;
+}
+
+/* I am using relative positioning instead of float objects to make this site more responsive
+basically im prepping for the fact that everything might need to resize itself in the event of a different
+device.*/
+
+#header div {
+    display: inline;
+    padding: 1% 0;
+    margin: 0 2%;
+    text-align: center;
+    border: 4px dashed; /* Useful for positioning */
+    font-size: 2em;
+}
+
+#logo {
+    color: #08a3d9;
+    width: 10%;
+    border-color: red; 
+}
+
+#header-middle {
+    width: 60%; 
+    border-color: green; 
+}
+
+#header-right {
+    width: 10%;
+    border-color: blue; 
+}
