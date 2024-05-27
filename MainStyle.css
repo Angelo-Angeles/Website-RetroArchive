@@ -11,7 +11,7 @@ basically im prepping for the fact that everything might need to resize itself i
 device.*/
 
 #header div {
-    display: inline;
+    display: inline-block;
     padding: 1% 0;
     margin: 0 2%;
     text-align: center;
