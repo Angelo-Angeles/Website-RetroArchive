@@ -25,11 +25,13 @@ device.*/
     width: 10%;
     border-color: red;
     size: 100%;
+    size-adjust: auto;
 }
 
 #navigation {
     width: 80%; 
-    border-color: green; 
+    border-color: green;
+    text-size-adjust: auto;
 }
 #navigation a {
     padding: 20px;
@@ -38,4 +40,5 @@ device.*/
 #login {
     width: 10%;
     border-color: blue; 
+    text-size-adjust: auto;
 }
