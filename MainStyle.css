@@ -1,8 +1,16 @@
+body {
+    background-color: #252525;
+    font-family: "ＭＳ Ｐゴシック";
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+    color: #FFF;
+}
+
 #header {
-    padding: 25px 10px;
-    height: 55px;
-    background-color: #292929;
-    border-bottom: 1px solid #e00000;
+    padding: 25px 5px;
+    height: 30px;
+    background-image: linear-gradient(to top, #6d0083 ,#e00000);
+    border-bottom: 3px solid #6d0083;
     overflow: no-content;
     min-width: 400px;
 }
@@ -13,25 +21,28 @@ device.*/
 
 #header div {
     display: inline-block;
-    padding: 1% 0;
-    margin: 0 2%;
     text-align: center;
-    border: 4px dashed; /* Useful for positioning */
-    font-size: 2em;
+    font-size: 75%; 
+    font-family: "ＭＳ Ｐゴシック";
+    font-smooth: never;
+    align-items: center;
+}
+
+#header a {
+    text-decoration-color: #292929;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 #logo {
     color: #08a3d9;
     width: 10%;
-    border-color: red;
     size: 100%;
     size-adjust: auto;
 }
 
 #navigation {
-    width: 80%; 
-    border-color: green;
-    text-size-adjust: auto;
+    width: 75%; 
 }
 #navigation a {
     padding: 20px;
@@ -39,6 +50,5 @@ device.*/
 
 #login {
     width: 10%;
-    border-color: blue; 
     text-size-adjust: auto;
-}
+}   
