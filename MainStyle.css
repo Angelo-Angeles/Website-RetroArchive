@@ -47,15 +47,14 @@ device.*/
 }
 
 #navigation {
-    width: 75%; 
+    width: 70%; 
 }
 #navigation a {
+    cursor: pointer;
     padding: 20px;
 }
 
 #login {
     cursor: pointer;
     width: 10%;
-    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
-    transition: 0.4s;  
 }
