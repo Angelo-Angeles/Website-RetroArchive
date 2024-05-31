@@ -39,9 +39,22 @@ device.*/
 }
 
 .header a {
-    text-decoration-color: #292929;
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
+    text-shadow: none;
+}
+
+.header a:hover {
+  color: #fff;
+  text-shadow: 
+  0 0 5px #fff,
+  0 0 8px #fff,
+  0 0 19px #fff,
+  0 0 40px #9900ff,
+  0 0 80px #9900ff,
+  0 0 90px #9900ff,
+  0 0 100px #9900ff,
+  0 0 149px #9900ff;
 }
 
 #logo {
@@ -49,10 +62,11 @@ device.*/
     width: 10%;
     size-adjust: auto;
     object-fit: scale-down;
+    cursor: pointer;
 }
 
 #navigation {
-    width: 70%;
+    width: 80%;
 }
 #navigation a {
     cursor: pointer;
@@ -67,22 +81,31 @@ device.*/
 @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
       text-shadow:
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #9900ff,
-        0 0 82px #9900ff,
-        0 0 92px #9900ff,
-        0 0 102px #9900ff,
-        0 0 151px #9900ff;
+        0 0 5px #fff,
+        0 0 8px #fff,
+        0 0 19px #fff,
+        0 0 40px #9900ff,
+        0 0 80px #9900ff,
+        0 0 90px #9900ff,
+        0 0 100px #9900ff,
+        0 0 149px #9900ff;
+
+      box-shadow:
+        0 0 54px #252525,
+        0 0 14px #9900ff,
+        0 0 28px #9900ff,
+        0 0 39px #9900ff,
+        0 0 40px #9900ff,
+        0 0 45px #9900ff;
     }
-    20%, 24%, 55% {
+    20%, 55% {
       text-shadow: none;
+      box-shadow: none;
     }
   }
 
 #banner {
-    animation: flicker 1.5s infinite alternate;
+    animation: flicker 5.0s infinite alternate;
     align-content: center;
     width: 100%;
     object-fit: fill;
@@ -94,6 +117,8 @@ device.*/
     font-size: 150px;
     font-family: "Yesteryear";
     color: #fff;
+    padding: 5px;
+    margin-bottom: 50px;
     text-shadow:
       0 0 5px #fff,
       0 0 8px #fff,
@@ -103,4 +128,79 @@ device.*/
       0 0 90px #9900ff,
       0 0 100px #9900ff,
       0 0 149px #9900ff;
+    box-shadow:  
+        0 0 4px #9900ff,
+        0 0 8px #9900ff,
+        0 0 90px #9900ff,
+        0 0 100px #9900ff,
+        0 0 14px #9900ff;
+}
+
+#Description {  
+  margin: auto;
+  display: relative;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  height: auto;
+  width: 500px;
+  text-wrap: auto;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #1a1a1af3;
+}
+
+#search-bar {
+  padding: 10px;
+  margin: 20px;
+  width: auto;
+  height: auto;
+  background-color: #200219b9;
+  border-radius: 20px;
+  align-content: center;
+  box-shadow:  
+    0 0 14px #9900ff49,
+    0 0 18px #9900ff49,
+    0 0 28px #9900ff49,
+    0 0 30px #9900ff49,
+    0 0 34px #9900ff49;
+}
+
+#search-bar input[type=text] {
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #252525;
+  border: none;
+  font-family: "ＭＳ Ｐゴシック";
+}
+
+#Search-text {
+  font-size: 50px;
+  font-family: "Yesteryear";
+  font-weight: 400;
+  text-shadow:
+    0 0 2px #fff,
+    0 0 34px #9900ff,
+    0 0 36px #9900ff;
+}
+
+footer {
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  background-color: #1a1a1ac7;
+  box-shadow: 
+    0 0 4px #252525
+    0 0 8px #252525
+    0 0 12px #252525;
+}
+
+#non-link-links {
+  padding: 10px;
+  cursor: pointer;
 }
