@@ -1,0 +1,191 @@
+body {
+    background-color: #252525;
+    background-image: url(Images/Body.jpg);
+    background-position: 50% 0;
+    font-family: "ＭＳ Ｐゴシック"; 
+    -webkit-font-smoothing : none;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    padding: 25px 5px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #1a1a1af3;
+    image-rendering: pixelated;
+    overflow: no-content;
+    min-width: 250px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;    
+}
+
+.header div {
+    display: inline-block;
+    text-align: center;
+    font-size: 75%; 
+    font-family: "ＭＳ Ｐゴシック";
+    align-items: center;
+    height: 20px;
+    align-content: center;
+}
+
+.header a {
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+}
+
+.header a:hover {
+  color: #fff;
+  text-shadow: 
+  0 0 5px #fff,
+  0 0 8px #fff,
+  0 0 19px #fff,
+  0 0 40px #9900ff,
+  0 0 80px #9900ff,
+  0 0 90px #9900ff,
+  0 0 100px #9900ff,
+  0 0 149px #9900ff;
+}
+
+#logo {
+    color: #08a3d9;
+    width: 10%;
+    size-adjust: auto;
+    object-fit: scale-down;
+    cursor: pointer;
+}
+
+#navigation {
+    width: 80%;
+}
+#navigation a {
+    cursor: pointer;
+    padding: 20px;
+}
+
+#login {
+    cursor: pointer;
+    width: 10%;
+}
+
+#LoginMenu {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    padding: 5%;
+    background-color: #111111;
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+    height: 50%;
+    position: absolute;
+    top: 13%;
+    left: 32.4%;
+    transform: -50%, -50%;
+    box-shadow: none;
+}
+
+#SubmitButton {
+    width: 80px;
+    color: #fff;
+    height: 30px;
+    font-family: "ＭＳ Ｐゴシック";
+    margin: 10px;
+    background-color: #252525;
+}
+
+#form {
+    height: 70%;
+}
+
+.form {
+    width: 75%;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#form input {
+    background-color: #252525;
+    color: #fff;
+    box-shadow: none;
+}
+
+#form input::placeholder {
+    font-family: "ＭＳ Ｐゴシック";
+    color: #919191;
+}
+
+#form input:not(:placeholder-shown) {
+    box-shadow:
+        0 0 4px #9900ff,
+        0 0 8px #9900ff,
+        0 0 16px #9900ff;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: #1a1a1ac7;
+    box-shadow: 
+      0 0 4px #252525
+      0 0 8px #252525
+      0 0 12px #252525;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 19px #fff,
+    0 0 40px #9900ff,
+    0 0 80px #9900ff,
+    0 0 90px #9900ff,
+    0 0 100px #9900ff,
+    0 0 149px #9900ff;
+}
+
+#Forgot {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 19px #fff,
+    0 0 40px #9900ff,
+    0 0 80px #9900ff,
+    0 0 90px #9900ff,
+    0 0 100px #9900ff,
+    0 0 149px #9900ff;
+}
+  
+#non-link-links {
+    padding: 10px;
+    cursor: pointer;
+}

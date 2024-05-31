@@ -136,7 +136,7 @@ device.*/
         0 0 14px #9900ff;
 }
 
-#Description {  
+#notice {  
   margin: auto;
   display: relative;
   margin-top: 5%;
@@ -191,6 +191,10 @@ device.*/
 
 footer {
   width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 3%;
   padding-top: 2%;
   padding-bottom: 1%;
   background-color: #1a1a1ac7;
