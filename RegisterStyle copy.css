@@ -97,24 +97,8 @@ body {
     color: #fff;
     height: 30px;
     font-family: "ＭＳ Ｐゴシック";
-    margin: 10px;
+    padding-top: 50px;
     background-color: #252525;
-}
-
-#SubmitButton:hover {
-    box-shadow:
-    0 0 4px #9900ff,
-    0 0 8px #9900ff,
-    0 0 16px #9900ff;
-    text-shadow:
-    0 0 5px #fff,
-    0 0 8px #fff,
-    0 0 19px #fff,
-    0 0 40px #9900ff,
-    0 0 80px #9900ff,
-    0 0 90px #9900ff,
-    0 0 100px #9900ff,
-    0 0 149px #9900ff;
 }
 
 #form {
@@ -127,6 +111,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    padding: 10px;
 }
 
 #form input {
@@ -160,45 +145,6 @@ footer {
       0 0 4px #252525
       0 0 8px #252525
       0 0 12px #252525;
-}
-
-a {
-    color: #fff;
-}
-
-a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: #fff;
-    text-shadow: 
-    0 0 5px #fff,
-    0 0 8px #fff,
-    0 0 19px #fff,
-    0 0 40px #9900ff,
-    0 0 80px #9900ff,
-    0 0 90px #9900ff,
-    0 0 100px #9900ff,
-    0 0 149px #9900ff;
-}
-
-#Forgot {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-p:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: #fff;
-    text-shadow: 
-    0 0 5px #fff,
-    0 0 8px #fff,
-    0 0 19px #fff,
-    0 0 40px #9900ff,
-    0 0 80px #9900ff,
-    0 0 90px #9900ff,
-    0 0 100px #9900ff,
-    0 0 149px #9900ff;
 }
   
 #non-link-links {

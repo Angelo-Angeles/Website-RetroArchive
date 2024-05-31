@@ -74,6 +74,18 @@ body {
     width: 10%;
 }
 
+#neon {
+    margin-top: -100px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-family: "Yesteryear";
+    font-weight: 400;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 34px #9900ff,
+      0 0 36px #9900ff;
+}
+
 #LoginMenu {
     align-items: center;
     align-content: center;
@@ -97,35 +109,20 @@ body {
     color: #fff;
     height: 30px;
     font-family: "ＭＳ Ｐゴシック";
-    margin: 10px;
     background-color: #252525;
-}
-
-#SubmitButton:hover {
-    box-shadow:
-    0 0 4px #9900ff,
-    0 0 8px #9900ff,
-    0 0 16px #9900ff;
-    text-shadow:
-    0 0 5px #fff,
-    0 0 8px #fff,
-    0 0 19px #fff,
-    0 0 40px #9900ff,
-    0 0 80px #9900ff,
-    0 0 90px #9900ff,
-    0 0 100px #9900ff,
-    0 0 149px #9900ff;
+    margin-top: 30px;
 }
 
 #form {
     height: 70%;
-}
+    margin-top: -50px;
+}   
 
 .form {
-    width: 75%;
+    width: 95%;
     height: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -160,45 +157,6 @@ footer {
       0 0 4px #252525
       0 0 8px #252525
       0 0 12px #252525;
-}
-
-a {
-    color: #fff;
-}
-
-a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: #fff;
-    text-shadow: 
-    0 0 5px #fff,
-    0 0 8px #fff,
-    0 0 19px #fff,
-    0 0 40px #9900ff,
-    0 0 80px #9900ff,
-    0 0 90px #9900ff,
-    0 0 100px #9900ff,
-    0 0 149px #9900ff;
-}
-
-#Forgot {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-p:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: #fff;
-    text-shadow: 
-    0 0 5px #fff,
-    0 0 8px #fff,
-    0 0 19px #fff,
-    0 0 40px #9900ff,
-    0 0 80px #9900ff,
-    0 0 90px #9900ff,
-    0 0 100px #9900ff,
-    0 0 149px #9900ff;
 }
   
 #non-link-links {
